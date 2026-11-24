@@ -28,15 +28,15 @@ TaskHandle_t Task2;
 DHT_Unified dht(DHTPIN, DHTTYPE);
 sensors_event_t event;
 
-const char *ssid = "803";
-const char *password = "y55067725";
+const char *ssid = "";
+const char *password = "";
 const char *ntpServer = "kr.pool.ntp.org";
-const char *mqtt_broker = "3.34.199.220";
+const char *mqtt_broker = "";
 const char *ID = "unit001";
 const char *pubTopic = "data/unit001";
 const char *subTopic = "cmd/unit001/#";
-const char *mqtt_username = "yoon";
-const char *mqtt_password = "helloElice";
+const char *mqtt_username = "";
+const char *mqtt_password = "";
 
 
 /*######################################*/
